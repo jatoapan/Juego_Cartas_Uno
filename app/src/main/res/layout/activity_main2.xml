@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorSurfaceDim"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/iimv1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/ggh9"
+        app:layout_constraintEnd_toStartOf="@+id/ggv3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/ggv1"
+        app:layout_constraintTop_toTopOf="@+id/ggh8"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/ggv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/ggv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.9" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/ggv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.45" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/ggv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.55" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/ggv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.725" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/ggh1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/ggh2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/ggh3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/ggh4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.7" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/ggh5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.69" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/ggh6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.115" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/ggh7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.105" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/ggh8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.375" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/ggh9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.625" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/ggh10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.635" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/ggh11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.365" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gg12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.458" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gg13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.541" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="?attr/colorSurfaceContainerLow"
+        app:layout_constraintBottom_toTopOf="@+id/ggh2"
+        app:layout_constraintEnd_toStartOf="@+id/ggv2"
+        app:layout_constraintStart_toStartOf="@+id/ggv1"
+        app:layout_constraintTop_toTopOf="@+id/ggh4">
+
+        <LinearLayout
+            android:id="@+id/playercont"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" />
+    </HorizontalScrollView>
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="?attr/colorSurfaceContainerLow"
+        app:layout_constraintBottom_toTopOf="@+id/ggh11"
+        app:layout_constraintEnd_toStartOf="@+id/ggv2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/ggv1"
+        app:layout_constraintTop_toTopOf="@+id/ggh6"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:id="@+id/machinecont"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" />
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/white"
+        android:fontFamily="@font/antaregular"
+        android:gravity="clip_horizontal|center"
+        android:text="Máquina"
+        android:textColor="?attr/colorOnSurfaceVariant"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@id/ggh7"
+        app:layout_constraintEnd_toStartOf="@+id/ggv2"
+        app:layout_constraintStart_toStartOf="@+id/ggv1"
+        app:layout_constraintTop_toTopOf="@id/ggh1" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/white"
+        android:fontFamily="@font/antaregular"
+        android:gravity="center"
+        android:textColor="?attr/colorOnSurfaceVariant"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/ggh5"
+        app:layout_constraintEnd_toStartOf="@+id/ggv2"
+        app:layout_constraintStart_toStartOf="@+id/ggv1"
+        app:layout_constraintTop_toTopOf="@+id/ggh10" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="?attr/colorOnSurfaceVariant"
+        android:fontFamily="@font/antaregular"
+        android:gravity="center"
+        android:onClick="selectNewColor"
+        android:text="R"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/gg12"
+        app:layout_constraintEnd_toStartOf="@+id/ggv5"
+        app:layout_constraintStart_toStartOf="@+id/ggv4"
+        app:layout_constraintTop_toTopOf="@+id/ggh8" />
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="?attr/colorOnSurfaceVariant"
+        android:fontFamily="@font/antaregular"
+        android:gravity="center"
+        android:onClick="selectNewColor"
+        android:text="A"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/gg12"
+        app:layout_constraintEnd_toStartOf="@+id/ggv2"
+        app:layout_constraintStart_toStartOf="@+id/ggv5"
+        app:layout_constraintTop_toTopOf="@+id/ggh8" />
+
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="?attr/colorOnSurfaceVariant"
+        android:fontFamily="@font/antaregular"
+        android:gravity="center"
+        android:onClick="selectNewColor"
+        android:text="V"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/gg13"
+        app:layout_constraintEnd_toStartOf="@+id/ggv5"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/ggv4"
+        app:layout_constraintTop_toBottomOf="@+id/tv4"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tv7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="?attr/colorOnSurfaceVariant"
+        android:fontFamily="@font/antaregular"
+        android:gravity="center"
+        android:onClick="selectNewColor"
+        android:text="Z"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/gg13"
+        app:layout_constraintEnd_toStartOf="@+id/ggv2"
+        app:layout_constraintStart_toStartOf="@+id/ggv5"
+        app:layout_constraintTop_toTopOf="@+id/gg12" />
+
+    <Button
+        android:id="@+id/bb1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:backgroundTint="?attr/colorOnSurfaceVariant"
+        android:fontFamily="@font/antaregular"
+        android:onClick="tomarCarta"
+        android:text="Tomar Carta"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/ggh9"
+        app:layout_constraintEnd_toStartOf="@+id/ggv2"
+        app:layout_constraintStart_toStartOf="@+id/ggv4"
+        app:layout_constraintTop_toTopOf="@+id/gg13" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
